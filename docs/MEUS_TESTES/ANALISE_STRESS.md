@@ -18,7 +18,7 @@ GATEWAY_DELAY_SECONDS=0
 ```
 A variável foi configurada para remover atrasos artificiais no gateway durante os testes. O valor foi registrado automaticamente no diário de execução.
 ---
-![alt text](blob:https://markdownviewer.pages.dev/5aa0e0de-6f47-4bc5-97d9-c4b875845d77)
+![Mostrar que o .env GATEWAY_DELAY_SECONDS=0 foi aplicado](/docs/MEUS_TESTES/images/gateway.png)
 
 ---
 # Ambiente de Teste
@@ -74,9 +74,9 @@ Com aproximadamente 300 usuários simultâneos ocorreram:
 - Indisponibilidade parcial da aplicação
 Esse comportamento caracteriza ruptura operacional.
 ---
-![alt text](blob:https://markdownviewer.pages.dev/4f951a7a-596c-4d80-ba54-fbaba3ff492d)
-![alt text](blob:https://markdownviewer.pages.dev/6baff518-fa55-481c-b09f-e0ac9486a641)
-![alt text](blob:https://markdownviewer.pages.dev/c5703938-7325-4e6b-be01-7056035baa27)
+![Executar o stress test mostrando usuários](/docs/MEUS_TESTES/images/executa-stress.png)
+![Mostrar conteúdo do Diario Stress](/docs/MEUS_TESTES/images/diario-stress.png)
+![Mostrar conteúdo do CSV](/docs/MEUS_TESTES/images/resustados-csv.png)
 ---
 
 # Hipóteses de Gargalo
