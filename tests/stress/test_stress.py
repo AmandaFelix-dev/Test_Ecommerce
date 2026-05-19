@@ -10,14 +10,14 @@ CSV_PATH = "tests/stress/relatorios/stress_resultados.csv"
 
 
 usuarios_teste = [
-    10,
-    25,
-    50,
-    75,
-    100,
-    150,
-    200,
-    300,
+    1000,
+    2500,
+    5000,
+    7500,
+    10000,
+    15000,
+    20000,
+    30000,
 ]
 
 
